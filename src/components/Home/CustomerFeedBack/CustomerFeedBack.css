@@ -1,0 +1,76 @@
+.slider {
+  margin: 10rem 0;
+}
+.slider_card {
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  border-radius: 2.4rem;
+  padding: 5rem 0;
+}
+.slider_card h3 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+  color: #ffffff;
+}
+.slider_card .under_line {
+  margin: 2rem auto;
+  background-color: #fff;
+}
+.slider_card h5 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+  color: #ffffff;
+}
+.slider_card p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* ---------------------- */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .slider_card h3 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .slider_card h5 {
+    font-size: 2rem;
+    line-height: 3.5rem;
+  }
+  .slider_card p {
+    font-size: 1.5rem;
+  }
+  .slider_card img {
+    margin-bottom: 1.5rem;
+  }
+  .slider_card .img_des {
+    display: flex;
+    flex-direction: column;
+  }
+  .slider_card .hero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .slider_card .comments {
+    width: 100% !important;
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .slider_card h3 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .slider_card h5 {
+    font-size: 2rem;
+    line-height: 3.5rem;
+  }
+  .slider_card p {
+    font-size: 1.5rem;
+  }
+}
+

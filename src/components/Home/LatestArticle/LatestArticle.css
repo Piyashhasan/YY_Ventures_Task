@@ -1,0 +1,106 @@
+.latest_article_container {
+  background-image: url("../../../assets/img/common/VectorTwo.png");
+  background-repeat: no-repeat;
+  background-position: right 30%;
+}
+.latest_article_container h2 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 5.6rem;
+}
+.latest_article_container .under_line {
+  margin: 2rem auto;
+}
+
+.latest_article_container .article_row {
+  background-image: url("../../../assets/img/common/element.png");
+  background-repeat: no-repeat;
+  background-position: 7% top;
+}
+
+.latest_article_container .article_card {
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.latest_article_container .article_card img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.latest_article_container .article_card h5 {
+  font-size: 2.1rem;
+  line-height: 3.2rem;
+  font-weight: 700;
+}
+.latest_article_container .article_card p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2.8rem;
+}
+.latest_article_container .article_card button {
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 2.8rem;
+  color: #4089ed;
+}
+
+.view_btn button {
+  width: 20rem;
+  height: 5.6rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  background-color: #fff;
+  color: #458ff6;
+  border: 1px solid #458ff6;
+}
+
+.view_btn button:hover {
+  background: #2196f3;
+  color: white;
+}
+
+/* ---------------------- */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .latest_article_container h2 {
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+  .latest_article_container .article_card h5 {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    font-weight: 700;
+  }
+  .latest_article_container .article_card p {
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+  }
+  .view_btn button {
+    width: 16rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .latest_article_container h2 {
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+  .latest_article_container .article_card h5 {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    font-weight: 700;
+  }
+  .latest_article_container .article_card p {
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+  }
+  .view_btn button {
+    width: 16rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+}

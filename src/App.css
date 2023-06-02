@@ -1,0 +1,46 @@
+/* font family */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+.app {
+  font-family: "Mulish", sans-serif;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0 !important;
+}
+
+p {
+  margin: 0 0 0px !important;
+}
+
+/* underline */
+.app .under_line {
+  width: 5.6rem;
+  height: 0.2rem;
+  background-color: #000000;
+}
+
+

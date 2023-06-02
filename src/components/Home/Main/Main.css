@@ -1,0 +1,112 @@
+.main .left_side {
+  padding-right: 5rem;
+}
+.main .left_side h1 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 5.6rem;
+}
+
+.main .left_side p {
+  font-weight: 300;
+  font-size: 2.1rem;
+  line-height: 3.2rem;
+}
+
+.main .main_btn {
+  width: 20rem;
+  height: 5.6rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  background-color: #458ff6;
+  color: #fff;
+}
+
+.main .main_btn:hover {
+  background: #fff;
+  color: #458ff6;
+  border: 1px solid #458ff6;
+}
+
+/* Media query */
+/* ---------------------- */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .main .left_side {
+    padding: 0 0.5rem;
+  }
+  .main .left_side h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 5rem;
+  }
+  .main .left_side p {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    text-align: justify;
+  }
+  .main .main_btn {
+    width: 12rem;
+    height: 4rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    background-color: #458ff6;
+    color: #fff;
+  }
+  .main .right_side {
+    margin: 5rem 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .main .left_side {
+    padding: 0 1rem;
+  }
+  .main .left_side h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 5rem;
+  }
+  .main .left_side p {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    text-align: justify;
+  }
+  .main .main_btn {
+    width: 12rem;
+    height: 4rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    background-color: #458ff6;
+    color: #fff;
+  }
+  .main .right_side {
+    margin: 5rem 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .main .left_side {
+    padding: 0 1rem;
+  }
+  .main .left_side h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 5rem;
+  }
+  .main .left_side p {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    text-align: justify;
+  }
+  .main .main_btn {
+    width: 12rem;
+    height: 4rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    background-color: #458ff6;
+    color: #fff;
+  }
+  .main .right_side {
+    margin: 5rem 0;
+  }
+}
